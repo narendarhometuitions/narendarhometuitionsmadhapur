@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import { PageShell } from '@/components/site/page-shell'
 import { PageHero } from '@/components/site/page-hero'
-import { Contact } from '@/components/site/contact'
 import { MapSection } from '@/components/site/map-section'
 
 export const metadata: Metadata = {
@@ -19,7 +18,6 @@ export default function ContactPage() {
         description="Reach out and we'll match your child with the perfect tutor. Call, WhatsApp or send us a message."
         breadcrumbItems={[{ label: 'Contact Us' }]}
       />
-      <Contact />
       <MapSection />
     </PageShell>
   )

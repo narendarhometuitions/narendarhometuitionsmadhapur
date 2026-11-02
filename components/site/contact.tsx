@@ -31,9 +31,9 @@ export function Contact() {
     <section id="contact" className="scroll-mt-20 bg-secondary/40 py-20 lg:py-28">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionHeading
-          eyebrow="Contact"
-          title="Book your parent enquiry today"
-          description="Reach out and we’ll match your child with the perfect tutor. Call, WhatsApp or send us a message."
+          eyebrow="Get in touch"
+          title="Get in Touch with Narendar Home Tuitions"
+          description="Looking for the best home tutor for your child in Madhapur and Hyderabad? Contact us today. We will help you find the right tutor for your child's academic needs."
           className="mx-auto"
         />
 
@@ -147,6 +147,8 @@ export function Contact() {
                         name="phone"
                         type="tel"
                         required
+                        pattern="[0-9+()\\s-]{10,}"
+                        title="Please enter a valid phone number"
                         placeholder="Your phone"
                         className={fieldClass}
                       />
@@ -173,6 +175,7 @@ export function Contact() {
                       <input
                         id="subject"
                         name="subject"
+                        required
                         placeholder="e.g. Maths, Science"
                         className={fieldClass}
                       />
@@ -197,7 +200,7 @@ export function Contact() {
                     className="mt-2 h-13 gap-2 rounded-full bg-brand text-base font-semibold text-brand-foreground hover:bg-brand/90"
                   >
                     <Send className="size-4" />
-                    Book Free Demo Class
+                    Get a Free Consultation
                   </Button>
                   <p className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground">
                     <Mail className="size-3.5" />

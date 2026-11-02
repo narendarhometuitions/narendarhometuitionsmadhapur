@@ -75,7 +75,7 @@ export function Hero() {
           <div className="relative mx-auto max-w-lg">
             <div className="overflow-hidden rounded-[2rem] border border-border bg-card shadow-2xl shadow-brand/10">
               <Image
-                src="/images/hero-tutor.png"
+                src="/images/tutor-home-session.png"
                 alt="An experienced home tutor teaching a student one-to-one"
                 width={720}
                 height={720}

@@ -17,7 +17,7 @@ export function About() {
         <ScrollReveal className="relative order-2 lg:order-1">
           <div className="overflow-hidden rounded-[2rem] border border-border shadow-xl shadow-brand/5">
             <Image
-              src="/images/about-learning.png"
+              src="/images/student-learning.png"
               alt="Personalized one-to-one home tutoring at a student's home"
               width={720}
               height={640}

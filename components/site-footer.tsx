@@ -22,7 +22,7 @@ export function SiteFooter() {
             <div className="flex items-center gap-2.5">
               <span className="flex size-12 items-center justify-center overflow-hidden rounded-xl bg-primary-foreground">
                 <Image
-                  src="/gopi-logo.png"
+                  src="/images/narendar-logo.png"
                   alt={`${BUSINESS_NAME} logo`}
                   width={96}
                   height={96}

@@ -39,7 +39,7 @@ export function SiteHeader() {
         <Link href="/" className="flex shrink-0 items-center gap-3">
           <span className="flex size-11 items-center justify-center overflow-hidden rounded-xl bg-card shadow-sm ring-1 ring-border md:size-12">
             <Image
-              src="/gopi-logo.png"
+              src="/images/narendar-logo.png"
               alt={`${BUSINESS_NAME} logo`}
               width={96}
               height={96}
